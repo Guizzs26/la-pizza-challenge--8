@@ -11,7 +11,13 @@
 
   --gray: #fefbf4;
 
+  --black: #000;
+
   --white: #ffffff;
+
+  --red: #e03131;
+
+  --green: #40c057;
 }
 
 /* General Styles */
@@ -58,4 +64,120 @@ body {
   left: 50%;
 
   transform: translate(-50%, -50%);
+}
+
+/*  */
+
+.best-sellers-box {
+  width: 123.7rem;
+
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 14.4rem 0;
+}
+
+.main-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 48.41px;
+}
+
+.pizza-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.9rem;
+}
+
+/**********/
+/* ABOUT */
+/********/
+
+.section-about {
+  padding: 6.4rem 0;
+
+  background-color: var(--gray);
+}
+
+.about-box {
+  width: 123.7rem;
+  height: 50rem;
+
+  display: flex;
+  align-items: center;
+  gap: 13.6rem;
+
+  margin: 0 auto;
+}
+
+.about-img-box {
+  width: 48.8rem;
+  height: 50rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text-box {
+  width: 59.2rem;
+  height: 28.4rem;
+}
+
+.about-heading {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 43.57px;
+
+  margin-bottom: 3.2rem;
+}
+
+.about-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 27px;
+
+  margin-bottom: 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 17px;
+
+  display: inline-block;
+
+  transition: transform 0.3s ease;
+
+  padding: 1.2rem 4rem;
+  border: none;
+  border-radius: 25px;
+
+  color: var(--black);
+  background-color: var(--brand-color);
+}
+
+.btn:hover,
+.btn:active {
+  transform: scale(1.2);
+}
+
+.span-i {
+  color: var(--brand-color);
+}
+
+.span-z {
+  color: var(--red);
+}
+
+.span-z-2 {
+  color: var(--green);
 }
