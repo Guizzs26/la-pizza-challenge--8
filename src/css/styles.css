@@ -6,6 +6,9 @@
 
 :root {
   --brand-color: #ffbd48;
+  --secondary-color: #fff5de;
+
+  --background-icon-color: #ffd4c9;
 
   --dark: #2e2e2e;
 
@@ -66,7 +69,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/*  */
+/*********************/
+/* MAIN GRTID PIZZA */
+/*******************/
 
 .best-sellers-box {
   width: 123.7rem;
@@ -81,6 +86,8 @@ body {
   font-size: 4rem;
   font-weight: 600;
   line-height: 48.41px;
+
+  margin-bottom: 5rem;
 }
 
 .pizza-card-list {
@@ -88,6 +95,98 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3.9rem;
+}
+
+.item-pizza {
+  width: 28rem;
+  height: 36rem;
+
+  position: relative;
+}
+
+.pizza-card {
+  width: 27.65rem;
+  height: 30rem;
+
+  margin-top: 4.4rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 16px;
+
+  background-color: var(--gray);
+}
+
+.pizza-content {
+  width: 21.5rem;
+  height: 36rem;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.text-img-box {
+  width: 21.5rem;
+  height: 27.9rem;
+
+  margin-bottom: 4rem;
+}
+
+.pizza-img {
+  width: 12rem;
+  height: 12rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.pizza-name {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 24.2px;
+
+  margin-bottom: 1.6rem;
+}
+
+.pizza-description {
+  font-size: 1.6rem;
+  line-height: 24px;
+
+  margin-bottom: 1.6rem;
+}
+
+.pizza-price {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 38.75px;
+}
+
+.item-pizza {
+  position: relative;
+}
+
+.fav-icon {
+  content: "";
+  display: block;
+  position: absolute;
+
+  width: 3.2rem;
+  height: 3.2rem;
+
+  border: 2px solid #e03131;
+  border-radius: 8px;
+
+  background-color: var(--background-icon-color);
+
+  top: 28px;
+  right: 16px;
+}
+
+.heart-icon {
+  width: 2rem;
+  height: 2rem;
+  top: 34.3px;
+  right: 22.13px;
+
+  position: absolute;
 }
 
 /**********/
